@@ -1,5 +1,6 @@
 const inquirer = require ("inquirer");
 const fs = require ('fs');
+const path = require('path');
 
 // array of questions for user
 inquirer.prompt([
@@ -49,17 +50,38 @@ inquirer.prompt([
       message:"What is you email address?"
    }
 ]).then (function(response){
-    if (response.input === response.message){
-        console.log("Success!");
-    }
-    else{
-        console.log("Wrong");
-    }
+    // save response to a file. 
+    console.log(response)
+    const fileName = "Read Me Generator.md";
+
+
+
+    writeToFile(fileName, response)
+    // if (response.input === response.message){
+    //     console.log("Success!");
+    // }
+    // else{
+    //     console.log("Wrong");
+    // }
 });
 
 
 // function to write README file
 function writeToFile(fileName, data) {
+    const title = data.title;
+    
+    const pathToSave = path.join(__dirname, fileName);
+   
+    const myAwesomeSpeech = `# ${data.title}
+--------------------
+email: ${data.email}
+email: ${data.email}
+email: ${data.email}
+email: ${data.email}
+`
+    //console.log(pathToSave);
+    fs.writeFileSync(pathToSave, myAwesomeSpeech)
+
 }
 
 // function to initialize program
