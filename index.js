@@ -1,9 +1,16 @@
-onst inquirer = require("inquirer");
+const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
 // array of questions for user
 const questions = [{
+
+    type: "input",
+    message: "What is the title of your project",
+    name: "title"
+
+  },  
+  {
     type: "input",
     message: "What is your GitHub username?",
     name: "username"
@@ -75,6 +82,7 @@ function init() {
     inquirer
     .prompt(questions)
     .then(function({
+      title,
       username, 
       email, 
       project,
@@ -86,6 +94,7 @@ function init() {
       repoUse, 
       repoContribute}) {
         if (
+        title !== "" && 
         username !== "" && 
         email !== "" && 
         project !=="" &&
@@ -96,19 +105,10 @@ function init() {
         runTestCommand !=="" &&
         repoUse !=="" &&
         repoContribute !=="") {
-            // console.log(generateMarkdown({
-            //   username, 
-            //   email, 
-            //   project,
-            //   repoName, 
-            //   description, 
-            //   licence, 
-            //   installDepCommand, 
-            //   runTestCommand, 
-            //   repoUse, 
-            //   repoContribute}));
+            
 
-            writeToFile("README.md", generateMarkdown({
+            writeToFile("generatoredReadMe.md", generateMarkdown({
+              title,
               username, 
               email, 
               project,
