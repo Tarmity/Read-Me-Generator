@@ -1,8 +1,8 @@
-# nfhuieahf
-  ![License](https://img.shields.io/github/license/agre/ggergre)
+# Good Read Me Generator
+  ![License](https://img.shields.io/github/license/tarmity/readmeGenerator)
   
   ## Description
-  * greggre
+  * This repository is where I developed the Good Read Me Generator. Not only do I work on code and issues here. I also publish the latest updates and functions.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,21 +15,21 @@
 
   ## Installation
   To install necessary dependencies, run the following command:
-  greg
+  npm install
 
   ## Usage
-  grre
+  To generate a good read me, download all the files in the repository, open you terminal window and run the the program with th cmd node index.js. 
 
   ## License
   * MIT
 
   ## Contributing
-  gegerg
+  This repo was contributed by Tarmity Flassman
 
   ## Tests
   To eliminate bugs, type the following commend to test application:
-      grefg
+      npm run test
 
   ## Questions
-  * If you have any questions, feel free to contact me via email: gerg
-  * My GitHub profile: https://github.com/agre
+  * If you have any questions, feel free to contact me via email: tarmity.flassman@gmail.com
+  * My GitHub profile: https://github.com/tarmity
