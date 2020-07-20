@@ -37,3 +37,7 @@ generatoredReadMe.md file. You can then cut and paste it into you required repo.
   ## Questions
   * If you have any questions, feel free to contact me via email: tarmity.flassman@gmail.com
   * My GitHub profile: https://github.com/tarmity
+
+  ## Demonstration 
+  * Watch the video for an example of how the app works: https://youtu.be/gOlaIYicc-o
+  * You can also download the video from the assets folder
