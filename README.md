@@ -15,7 +15,8 @@
 
   ## Installation
   To install necessary dependencies, run the following command:
-  npm install
+  
+    npm install
 
   ## Usage
   To generate a good read me, download all the files in the repository, open you terminal window and run the the program with th cmd node index.js. 
@@ -28,6 +29,7 @@
 
   ## Tests
   To eliminate bugs, type the following commend to test application:
+  
       npm run test
 
   ## Questions
