@@ -1,8 +1,8 @@
 # Good Read Me Generator
-  ![License](https://img.shields.io/github/license/tarmity/readmeGenerator)
+  ![License](https://img.shields.io/github/license/tarmity/dfe)
   
   ## Description
-  * This repository is where I developed the Good Read Me Generator. Not only do I work on code and issues here. I also publish the latest updates and functions.
+  * rew
 
   ## Table of Contents
   * [Installation](#installation)
@@ -15,20 +15,20 @@
 
   ## Installation
   To install necessary dependencies, run the following command:
-  npm install
+  gf
 
   ## Usage
-  To generate a good read me, download all the files in the repository, open you terminal window and run the the program with th cmd node index.js. 
+  dfegd
 
   ## License
   * MIT
 
   ## Contributing
-  This repo was contributed by Tarmity Flassman
+  dfg
 
   ## Tests
   To eliminate bugs, type the following commend to test application:
-      npm run test
+      dsgd
 
   ## Questions
   * If you have any questions, feel free to contact me via email: tarmity.flassman@gmail.com
