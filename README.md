@@ -21,8 +21,7 @@
     npm install
 
   ## Usage
-  To generate a good read me, download all the files in the repository, open you terminal window and run the the program with th cmd node index.js, this will run intiate the program and ask you a few questions.
-once you have answered all the questions and you get Successful after you last question, you read me will be generated in the 
+  To generate a good read me, download all the files in the repository, open you terminal window and run the the program with th cmd node index.js, this will run intiate the program and ask you a few questions. Once you have answered all the questions and you get Successful after you last question, your read me will be generated in the 
 generatoredReadMe.md file. You can then cut and paste it into you required repo.
 
   ## License
